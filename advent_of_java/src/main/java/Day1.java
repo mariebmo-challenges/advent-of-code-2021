@@ -16,7 +16,7 @@ public class Day1 {
 
             int currentNum = Integer.parseInt(scanner.nextLine());
 
-            if( currentNum > previousNum && previousNum >= 0){
+            if( currentNum > previousNum){
                 increases++;
             }
             previousNum = currentNum;
@@ -28,7 +28,6 @@ public class Day1 {
         File file = new File("Inputs/Day1.txt");
         Scanner scanner = new Scanner(file);
 
-        int previousNum = -1;
         int increases = 0;
         ArrayList<Integer> numbers = new ArrayList<>();
 
