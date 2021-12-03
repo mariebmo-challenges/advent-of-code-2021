@@ -14,6 +14,10 @@ namespace advent_of_net
             Console.WriteLine(Day2.SolveDay2A());
             Console.WriteLine(Day2.SolveDay2B());
 
+            Console.WriteLine( "----DAY 3----" );
+            Day3.SolveDay3A();
+            //Console.WriteLine( Day3.SolveDay3A() );
+            //Console.WriteLine( Day3.SolveDay3B() );
         }
     }
 }
